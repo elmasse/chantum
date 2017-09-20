@@ -1,0 +1,18 @@
+{
+  "name": "chantum",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "next": "^3.2.2",
+    "nextein": "^1.0.0-beta21",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1"
+  }
+}
