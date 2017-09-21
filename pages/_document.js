@@ -25,6 +25,7 @@ export default class MyDocument extends Document {
       <html lang="en">
         <Head>
           <title>Chantum</title>
+          <link href="https://fonts.googleapis.com/css?family=Playfair+Display:900" rel="stylesheet" />
           <style dangerouslySetInnerHTML={{ __html: this.props.css }} />
         </Head>
         <body>

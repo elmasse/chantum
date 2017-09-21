@@ -7,6 +7,9 @@ import { Content } from 'nextein/post'
 
 import Link from 'nextein/link'
 
+import Logo from  '../components/logo'
+import Nav from '../components/navigation'
+
 // Adds server generated styles to emotion cache.
 // '__NEXT_DATA__.ids' is set in '_document.js'
 if (typeof window !== 'undefined') {
@@ -18,13 +21,15 @@ export default withPosts(({ posts }) => {
   injectGlobal`
     html, body {
       margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Lucida Grande", sans-serif;      
     }
   `
 
   return (
     <Main>
+      <Nav />
       <Header>
-        <h1>Chantum</h1>
+        <BiggerLogo />
       </Header>
       <Section>
         {
@@ -55,6 +60,10 @@ const Header = styled('header')`
   justify-content: center;
 `
 
+const BiggerLogo = styled(Logo)`
+  font-size: 3.5em;
+`
+
 const Section = styled('section')`
   margin: 50px 0;
 `
@@ -62,4 +71,15 @@ const Section = styled('section')`
 const Post = styled('div')`
   max-width: 1000px;
   margin: 70px auto;
+
+  & a {
+    text-decoration: none;
+    color: #212121;
+  }
+
+  & p {
+    font-weight: 200;
+    color: #888;
+    line-height: 1.6;
+  }
 `

@@ -4,6 +4,8 @@ import styled from 'react-emotion'
 
 import withPost, { Content } from 'nextein/post'
 
+import Nav from '../components/navigation'
+
 // Adds server generated styles to emotion cache.
 // '__NEXT_DATA__.ids' is set in '_document.js'
 if (typeof window !== 'undefined') {
@@ -15,11 +17,13 @@ export default withPost(({ post }) => {
   injectGlobal`
     html, body {
       margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Lucida Grande", sans-serif;      
     }
   `
 
   return (
     <Main>
+      <Nav showHome />
       <Header>
         <h1>{post.data.title}</h1>
       </Header>
