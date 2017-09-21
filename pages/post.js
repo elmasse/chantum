@@ -31,7 +31,7 @@ export default withPost(({ post }) => {
         {...post}
         renderers={{
           blockquote: Blockquote,
-          h3: H3,
+          h3: Heading3,
           p: Paragraph
         }}
       />
@@ -86,7 +86,7 @@ const Blockquote = styled('blockquote')`
     z-index: -1;
   }
 `
-const H3 = styled('h3')`
+const Heading3 = styled('h3')`
   margin: 56px 0 0 -2px;
   font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Lucida Grande", sans-serif;
   font-weight: 700;
