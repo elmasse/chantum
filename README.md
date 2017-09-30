@@ -2,6 +2,15 @@
 
 Repositorio de la charla del 28 de Septiembre en Meetups.js sobre Nextein
 
+## Links
+
+**slides** [chau jekyll, hola nextein](https://docs.google.com/presentation/d/1kGXm30eKjb6NpoUJpnY0-MnJGHV50b3tSqtGb_btcdc/edit?usp=sharing)
+
+**repo** de Nextein: [github.com/elmasse/nextein](https://github.com/elmasse/nextein)
+
+**Sitio, Guides & Docs** [nextein.now.sh](https://nextein.now.sh)
+
+
 ## Introduccion
 
 El repo contiene varios branchs con distintos conceptos mostrados en la demo.
