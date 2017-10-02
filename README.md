@@ -34,17 +34,14 @@ Para correr la demo hacemos checkout del branch, instalamos dependencias y corre
 
 ```
 git checkout 01-initial
-
 ```
 
 ```
 npm install
-
 ```
 
 ```
 npm run dev
-
 ```
 
 En cualquiera de los pasos podemos correr la generacion estatica y servirla como se explica a continuacion:
@@ -55,7 +52,6 @@ Para correr el export solo tenemos que ejecutar:
 
 ```
 npm run export
-
 ```
 
 Luego, podemos servir la carpeta `out` usando un web server. Por ejemplo con `http-server` (`npm i -g http-server`)
